@@ -2,7 +2,7 @@ Data-Federation
 ===============
 
 
-Please refer to [here](https://github.com/pshken/data-federation/blob/master/About%20Data%20Federation%20Engine.pdf).
+Please refer to [here](https://github.com/pshken/data-federation/blob/master/About%20Data%20Federation%20Engine.pdf) for full doucmentation and more about this project.
 
 ### Quick Start
 

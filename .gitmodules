@@ -1,0 +1,3 @@
+[submodule "XMLImporter"]
+	path = XMLImporter
+	url = https://github.com/pshken/XMLImporter.git

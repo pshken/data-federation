@@ -1,0 +1,47 @@
+[
+  {
+    "datasource": "http://170.140.138.125:9099/services/demo/basic/query/queryByCountry",
+    "apiKey": "3c5d87ec-3b40-46d8-a004-f811b379fd47",
+    "title": "basic",
+    "key": "uid",
+    "params": [
+      "country"
+    ]
+  },
+  {
+    "datasource": "http://170.140.138.125:9099/services/demo/details/query/queryByGender",
+    "apiKey": "3c5d87ec-3b40-46d8-a004-f811b379fd47",
+    "title": "details1",
+    "key": "uid",
+    "params": [
+      "gender"
+    ]
+  },
+  {
+    "datasource": "http://170.140.138.125:9099/services/demo/details/query/queryByGender",
+    "apiKey": "3c5d87ec-3b40-46d8-a004-f811b379fd47",
+    "title": "details2",
+    "key": "uid",
+    "params": [
+      "gender"
+    ]
+  },
+  {
+    "datasource": "http://170.140.138.125:9099/services/demo/details/query/queryByGender",
+    "apiKey": "3c5d87ec-3b40-46d8-a004-f811b379fd47",
+    "title": "details3",
+    "key": "uid",
+    "params": [
+      "gender"
+    ]
+  },
+  {
+    "datasource": "http://170.140.138.125:9099/services/demo/details/query/queryByGender",
+    "apiKey": "3c5d87ec-3b40-46d8-a004-f811b379fd47",
+    "title": "details4",
+    "key": "uid",
+    "params": [
+      "gender"
+    ]
+  }
+]

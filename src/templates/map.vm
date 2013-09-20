@@ -1,0 +1,16 @@
+function() {
+    var result = {
+        #foreach( $datasource in $datasourceList)
+            $datasource : [],
+            $datasource#[[_count]]# : 0,
+        #end
+    };
+
+    #foreach( $datasource in $datasourceList)
+        if(this._dataType == "$datasource"){
+            result.$datasource#[[.push(this);]]#
+            result.$datasource#[[_count]]# = 1;
+        }
+    #end
+    emit(this.$dataKey , result);
+};

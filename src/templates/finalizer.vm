@@ -1,0 +1,10 @@
+function(key,reducedValue){
+    if(#foreach ($datasource in $datasourceList) 
+    reducedValue.$datasource#[[_count]]# > 0  
+    #if($foreach.hasNext) && #end 
+    #end)
+    {
+        reducedValue.intersection = true;
+    }
+    return reducedValue;
+};

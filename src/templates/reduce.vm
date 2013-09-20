@@ -1,0 +1,15 @@
+function(key , values) {
+    var result = { };
+    #foreach($datasource in $datasourceList)
+        result.$datasource#[[_count]]# = 0;
+        result.$datasource = [ ];
+    #end
+
+    for(var idx = 0; idx < values.length; idx++) {
+        #foreach( $datasource in $datasourceList)
+            result.$datasource#[[_count]]# += values[idx].$datasource#[[_count]]#;
+            result.$datasource = result.$datasource#[[.concat(values[idx].]]#$datasource);
+        #end
+    }
+    return result;
+};

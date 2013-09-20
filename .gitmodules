@@ -1,3 +1,6 @@
 [submodule "XMLImporter"]
 	path = XMLImporter
 	url = https://github.com/pshken/XMLImporter.git
+[submodule "data-gen"]
+	path = data-gen
+	url = https://github.com/pshken/data-gen.git
